@@ -77,7 +77,7 @@ export const Pokemon = () => {
             onChange={(e) => setSearch(e.target.value)}
           />
         </div>
-        <div>
+        <div className="hero">
           <ul className="cards">
             {searchData.map((curPokemon) => {
               return (
